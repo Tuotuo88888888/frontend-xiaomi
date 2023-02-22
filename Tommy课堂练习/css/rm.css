@@ -1,0 +1,66 @@
+.rm {
+  width: 84px;
+  position: fixed;
+  right: 0;
+  bottom: 70px;
+  color: #757575;
+  z-index: 999;
+}
+.rm-item {
+  padding-top: 14px;
+  text-align: center;
+  border: 1px solid #f5f5f5;
+  border-top: none;
+  height: 92px;
+  display: block;
+  background-color: #fff;
+}
+.rm-item:first-child {
+  border-top: 1px solid #f5f5f5;
+}
+.rm-item.rm-to-top {
+  margin-top: 18px;
+  border-top: 1px solid #f5f5f5;
+}
+.rm-item .iconfont {
+  display: block;
+  font-size: 30px;
+}
+
+.rm-mention {
+  display: none;
+  position: absolute;
+  right: 90px;
+  top: 0;
+  background-color: #fff;
+  width: 128px;
+  padding: 14px 0;
+  text-align: center;
+  border: 1px solid #f5f5f5;
+}
+.rm-mention img {
+  width: 100px;
+  margin: 0 auto 20px;
+  display: block;
+}
+.rm-mention p {
+  width: 80px;
+  margin: 0 auto;
+}
+.rm-mention::after {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  transform: rotate(45deg);
+  background-color: #fff;
+  border: 1px solid #f5f5f5;
+  border-left: none;
+  border-bottom: none;
+  position: absolute;
+  top: 30px;
+  right: -6px;
+}
+.rm-item:hover .rm-mention {
+  display: block;
+}

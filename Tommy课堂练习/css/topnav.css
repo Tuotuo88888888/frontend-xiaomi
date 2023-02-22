@@ -1,0 +1,66 @@
+.topnav {
+  background: #333;
+  height: 40px;
+  font-size: 12px;
+  color: #b0b0b0;
+}
+.topnav-menu {
+  line-height: 40px;
+}
+.topnav-menu li {
+  float: left;
+}
+.topnav-menu li a {
+  padding: 0 7px;
+  border-right: 1px solid #424242;
+}
+.topnav-menu li:first-child a {
+  padding-left: 0px;
+}
+.topnav-menu li:last-child a {
+  border-right: none;
+}
+.topnav-menu a:hover{
+    color:#fff;
+}
+
+.topnav-car{
+  width: 120px;
+  height: 40px;
+  background-color:#424242;
+  margin-left: 13px;
+  position: relative;
+}
+.topnav-link{
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  line-height: 40px;
+}
+.topnav-link .iconfont{
+  margin-right: 3px;
+}
+
+.topnav-detail{
+  height: 100px;
+  width: 320px;
+  background-color: #fff;
+  line-height: 100px;
+  /* border: 1px solid #ccc;
+  border-top: none; */
+  position:absolute;
+  top:40px;
+  right: 0px;
+  text-align: center;
+  display: none;
+  z-index: 50;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.15);
+}
+.topnav-car:hover .topnav-detail{
+  display: block;
+}
+.topnav-car:hover .topnav-link{
+  background-color: #fff;
+  color: #ff6700;
+}

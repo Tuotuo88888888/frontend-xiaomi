@@ -1,0 +1,85 @@
+.footer-top {
+  height: 75px;
+  padding: 27px 0;
+  border-bottom: 1px solid #e0e0e0;
+  color: #616161;
+}
+.footer-top > a {
+  font-size: 0px;
+  width: 20%;
+  text-align: center;
+  border-right: 1px solid #e0e0e0;
+  height: 20px;
+  line-height: 20px;
+}
+.footer-top > a span {
+  font-size: 16px;
+}
+.footer-top > a:last-child {
+  border-right: none;
+}
+.footer-top > a .iconfont {
+  font-size: 26px;
+  vertical-align: -4px;
+  margin-right: 6px;
+}
+
+.footer-bottom {
+  padding: 40px 0;
+}
+.footer-links {
+  width: 160px;
+}
+.footer-links a {
+  display: block;
+  font-size: 12px;
+  color: #757575;
+  margin-top: 10px;
+}
+.footer-links h3 {
+  font-size: 14px;
+  color: #424242;
+  font-weight: normal;
+  margin-bottom: 17px;
+}
+
+.footer-contact {
+  border-left: 1px solid #e0e0e0;
+  text-align: center;
+  width: 245px;
+  font-size: 12px;
+}
+.footer-phone {
+  color: #ff6700;
+  font-size: 22px;
+}
+.footer-phone-desc,
+.footer-subcribe {
+  color: #616161;
+}
+.footer-support {
+  width: 118px;
+  display: block;
+  border: 1px solid #ff6700;
+  color: #ff6700;
+  text-align: center;
+  margin: 6px auto;
+  height: 30px;
+  line-height: 30px;
+}
+.footer-support .iconfont {
+  vertical-align: -1px;
+  font-size: 14px;
+}
+.footer-support:hover {
+  background: #ff6700;
+  color: #fff;
+}
+.footer-subcribe .iconfont {
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.footer-subcribe .iconfont:hover {
+  color: #ff6700;
+}

@@ -1,0 +1,38 @@
+/* 通用css代码哟 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+a:hover {
+  color: #ff6700;
+}
+html {
+  color: #333;
+  min-width: 1226px;
+  font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei",
+    "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container {
+  width: 1226px;
+  margin-left: auto;
+  margin-right: auto;
+}

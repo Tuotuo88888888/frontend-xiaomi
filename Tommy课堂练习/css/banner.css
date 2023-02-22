@@ -1,0 +1,102 @@
+.banner {
+  height: 460px;
+  position: relative;
+}
+.banner .cover img {
+  width: 100%;
+}
+.banner-pointer {
+  text-align: center;
+  width: 40px;
+  height: 70px;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  color: #b8c3cb;
+  cursor: pointer;
+  line-height: 70px;
+}
+.banner-pointer:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.banner-pointer .iconfont {
+  font-size: 30px;
+}
+.banner-pointer-left {
+  left: 234px;
+}
+.banner-pointer-right {
+  right: 0px;
+}
+.banner-dots {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+.banner-dots span {
+  float: left;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.4);
+  width: 10px;
+  height: 10px;
+  margin: 0 4px;
+}
+.banner-dots .banner-dots-selected {
+  border-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.banner-menu {
+  width: 234px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(105, 101, 101, 0.6);
+  padding: 20px 0;
+}
+.banner-menu-item {
+  line-height: 42px;
+  height: 42px;
+  width: 100%;
+  padding: 0 20px 0 30px;
+  color: #fff;
+  cursor: pointer;
+}
+.banner-menu li:hover .banner-menu-item {
+  background-color: #ff6700;
+}
+.banner-sub-menu {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.18);
+  border: 1px solid #e0e0e0;
+  display: none;
+  width: 992px;
+  height: 100%;
+  position: absolute;
+  left: 234px;
+  top: 0px;
+  background-color: #fff;
+}
+.banner-sub-menu a {
+  width: 25%;
+  height: 16.666%;
+  padding: 0 20px;
+}
+.banner-sub-menu a img {
+  width: 40px;
+  height: 40px;
+  margin-top: 17px;
+  margin-right: 12px;
+}
+.banner-sub-menu a span {
+  width: 154px;
+  margin-top: 28px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.banner-menu li:hover .banner-sub-menu {
+  display: block;
+}
